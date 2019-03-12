@@ -1,0 +1,135 @@
+; create by chensuiyi
+; define variable [定义变量]
+; build in object [内建对象]
+; base syntax flow [基本语法]
+; base type [基本类型]
+#TITLE=JavaScript
+#DELIMITER=,(){}[]-+*%/\="'~!&|<>?:;.`
+#QUOTATION1='
+#QUOTATION2="
+#CONTINUE_QUOTE=n
+#CHECK_CLOSINGQUOTE=y
+#LINECOMMENT=//
+#LINECOMMENT2=
+#COMMENTON=/*
+#COMMENTOFF=*/
+#COMMENTON2=`
+#COMMENTOFF2=`
+#NESTED_COMMENT=
+#ESCAPE=\
+#CASE=y
+#PREFIX1=$
+#PREFIX2=_
+#PREFIX3=
+#PREFIX4=
+#PREFIX5=
+#SUFFIX1=
+#SUFFIX2=
+#SUFFIX3=
+#SUFFIX4=
+#SUFFIX5=
+#HTML_EMBEDDED=
+#SCRIPT_BEGIN=
+#SCRIPT_END=
+#HEREDOC=
+#AUTOCASE=
+#AUTOCOMPLETE_QUOTE=y
+#NUMBER_PATTERN=cpp
+#SPECIAL_STX=js
+; custom veriable [自定变量]
+; base type [基本类型]
+; base syntax [基本语法]
+; base symbol [基本符号]
+; define veriable [定义变量]
+; build in object [内建对象]
+; build in function [内建函数]
+#KEYWORD=custom veriable
+#KEYWORD=custom function
+#KEYWORD=base type
+false
+true
+null
+undefined
+#KEYWORD=base syntax
+if
+for
+while
+switch
+case
+else
+goto
+break
+continue
+do
+with
+try
+catch
+final
+finally
+throw
+default
+import
+require
+module
+exports
+in
+instanceof
+interface
+abstract
+package
+private
+protected
+public
+return
+static
+delete
+new
+super
+this
+that
+typeof
+void
+async
+await
+reject
+resolve
+of
+#KEYWORD=base symbol
+#KEYWORD=define veriable
+const
+var
+let
+global
+class
+extends
+function
+#KEYWORD=build in object
+Object
+Array
+Date
+Form
+Frame
+Image
+location
+Math
+String
+Regexp
+window
+sessionStorage
+localStorage
+prototype
+Vue
+document
+process
+console
+Y
+#KEYWORD=build in function
+foreach
+every
+map
+split
+__dirname
+dir
+log
+table
+
