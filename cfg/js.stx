@@ -1,6 +1,8 @@
 ; author	:	chensuiyi
 ; website	:	http://x2zhp.com
 ; email		:	bimostyle@qq.com
+; background[背景](41,49,52)
+; text		[前景](255,251,240)
 ; veriable	[变量](166,204,128)
 ; value		[值组](255,128,128)
 ; scope		[作用](228,207,109)
@@ -134,6 +136,10 @@ Y
 Promise
 setTimeout
 setInterval
+fs
+path
+https
+http
 #KEYWORD=level2
 foreach
 every
@@ -142,3 +148,29 @@ split
 dir
 log
 table
+; nodejs fs模块方法
+createWriteStream
+extname
+existsSync
+mkdirSync
+; Math 方法
+random
+; 数组方法
+length
+join
+; 正则方法
+test
+; 其他方法
+get
+on
+set
+querySelectorAll
+; puppeteer 方法
+focus
+keyboard
+waitFor
+click
+newPage
+launch
+evaluate
+close
