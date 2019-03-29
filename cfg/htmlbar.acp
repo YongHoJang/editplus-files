@@ -157,12 +157,12 @@
 	^!
 </style>
 #T=DIV
-<div id="" class="">
+<div class="">
 	^!
 </div>
 #T=SPAN
 <span class="">^!</span>
-#T=xjh
+#T=ddd
 <!DOCTYPE HTML>
 <html>
 	<head>
