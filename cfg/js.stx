@@ -121,6 +121,7 @@ Form
 Frame
 Image
 location
+; 数学方法
 Math
 String
 Regexp
@@ -136,21 +137,20 @@ Y
 Promise
 setTimeout
 setInterval
+clearInterval
+clearTimeout
 fs
 path
 https
 http
 context
-value
-index
 #KEYWORD=level2
-foreach
-every
-map
-split
+; 控制台方法
 dir
 log
 table
+; 日期方法
+now
 ; nodejs fs模块方法
 createWriteStream
 extname
@@ -166,20 +166,35 @@ existsSync
 mkdirSync
 ; Math 方法
 random
+pow
+floor
+ceil
+round
+sin
+cos
+tan
 ; 数组方法
+foreach
+every
+split
 length
 join
+map
+filter
 ; 正则方法
 test
+match
 ; 其他方法
 get
 on
 set
 querySelectorAll
+querySelector
 ; puppeteer 方法
 focus
 keyboard
 waitFor
+waitForSelector
 click
 newPage
 launch
